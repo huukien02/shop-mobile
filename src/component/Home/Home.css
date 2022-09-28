@@ -1,0 +1,112 @@
+.HOME_SHOP {
+  /* border: 1px solid #000; */
+  display: flex;
+}
+.HOME_SHOP_NAVBAR {
+  /* border: 1px solid #000; */
+  width: 30%;
+}
+.HOME_SHOP_NAVBAR h3 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: #f1b306;
+  font-size: 15px;
+}
+.HOME_SHOP_LISTPRODUCT {
+  /* border: 1px solid #000; */
+  width: 70%;
+}
+.HOME_SHOP_NAVBAR_UL {
+  padding-left: 0px;
+}
+.HOME_SHOP_NAVBAR_UL li {
+  padding-left: 5%;
+  width: 95%;
+  border: 1px solid black;
+  height: 40px;
+  padding-top: 15px;
+  border: none;
+  background-color: whitesmoke;
+}
+.HOME_SHOP_NAVBAR_UL li:hover {
+  cursor: pointer;
+  color: red;
+  background-color: lightgray;
+  font-weight: bold;
+}
+.HOME_SHOP_LISTPRODUCT {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  width: 1000px;
+  padding-top: 20px;
+  margin-left: 30px;
+}
+.HOME_SHOP_LISTPRODUCT_ITEM {
+  font-family: "Courier New", Courier, monospace;
+  border: 1px solid white;
+  width: 200px;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-shadow: 0px 0px 25px gray;
+  height: 360px;
+}
+.HOME_SHOP_LISTPRODUCT_ITEM img {
+  width: 200px;
+  height: 200px;
+}
+
+.HOME_SHOP_LISTPRODUCT_BTN {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 7px #999;
+}
+
+.HOME_SHOP_LISTPRODUCT_BTN:hover {
+  background-color: #3e8e41;
+}
+
+.HOME_SHOP_LISTPRODUCT_BTN:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.HOME_SHOP_LISTPRODUCT_BTN_DISABLE {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 7px #999;
+}

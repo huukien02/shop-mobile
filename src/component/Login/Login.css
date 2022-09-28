@@ -1,0 +1,135 @@
+.TITLE_LOGIN {
+  border: 1px solid white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #1877f2;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.TITLE_LOGIN i {
+  color: red;
+}
+.FORM_LOGIN {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 505px;
+  margin-left: 520px;
+  margin-top: 50px;
+  background-color: aliceblue;
+  box-shadow: 0px 1px 8px gray;
+}
+.FORM_LOGIN h1 {
+  color: #1877f2;
+  margin-left: 200px;
+}
+.FORM_LOGIN a:hover {
+  font-size: 14px;
+  color: red;
+}
+#toSignUp {
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+label i {
+  color: white;
+  text-align: center;
+  width: 38px;
+  height: 28px;
+  border: 1px solid lightgray;
+  padding-top: 10px;
+  background-color: black;
+  border-radius: 5px;
+}
+.fa-solid.fa-user {
+  position: relative;
+  left: 86px;
+  top: 0px;
+}
+.fa-solid.fa-lock {
+  position: relative;
+  left: 86px;
+  top: 1px;
+}
+#tk {
+  margin-left: 45px;
+  padding-left: 49px;
+  width: 270px;
+  height: 38px;
+  margin-top: 5px;
+  color: black;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px gray;
+  outline: none;
+  margin-bottom: 20px;
+}
+#mk {
+  margin-left: 45px;
+  padding-left: 49px;
+  width: 270px;
+  height: 38px;
+  margin-top: 5px;
+  color: black;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px gray;
+  outline: none;
+}
+.submit {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 323px;
+  height: 39px;
+  margin-left: 90px;
+  background-color: #1877f2;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #045fd7;
+}
+
+small {
+  color: red;
+}
+.acc-err {
+  position: relative;
+  left: 87px;
+  top: -15px;
+}
+.pass-err {
+  position: relative;
+  left: 87px;
+  top: 5px;
+}
+
+.submit-err {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 323px;
+  height: 39px;
+  margin-left: 90px;
+  background-color: gray;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 46.1875em) {
+  .title {
+    width: 800px;
+  }
+  .form {
+    margin-left: 160px;
+  }
+}

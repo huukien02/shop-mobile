@@ -1,0 +1,38 @@
+.Admin_Product {
+}
+
+.Admin_Cart {
+  display: none;
+}
+
+.Admin_User {
+  display: none;
+}
+.Menu_Admin {
+  display: flex;
+  margin-left: 460px;
+}
+.Menu_Admin li {
+  list-style-type: none;
+  border: 1px solid #000;
+  width: 200px;
+
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  background: #000;
+  color: white;
+  font-weight: bold;
+
+  transition: all 0.5s;
+}
+.Menu_Admin li:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.Thong_Ke {
+  margin-left: 780px;
+}

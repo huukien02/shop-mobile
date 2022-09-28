@@ -1,0 +1,8 @@
+.Check_Login {
+  padding-left: 1300px;
+}
+.Check_Login i {
+  margin-left: 10px;
+  color: red;
+  cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.TABLE_CART_ADMIN {
+  margin-left: 210px;
+}
+.TABLE_CART_ADMIN tr th {
+  background-color: rgb(29, 148, 29);
+  width: 150px;
+  height: 35px;
+  color: white;
+}
+.TABLE_CART_ADMIN tr td {
+  text-align: center;
+  height: 25px;
+}
+.TABLE_CART_ADMIN tr:nth-child(odd) {
+  background-color: lightgray;
+}
+.TABLE_CART_ADMIN tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+#listOrder img {
+  width: 70px;
+  height: 70px;
+}
+.fa-solid.fa-square-xmark {
+  margin-left: 1005px;
+  color: red;
+}
+.list-detail {
+  display: none;
+}
+.fa-solid.fa-circle-check {
+  cursor: pointer;
+  position: relative;
+  left: -20px;
+}
+
+#listOrder {
+  margin-left: 410px;
+}
+#listOrder tr th {
+  background-color: rgb(29, 148, 29);
+  width: 150px;
+  height: 35px;
+  color: white;
+}
+#listOrder tr td {
+  text-align: center;
+  height: 25px;
+}
+#listOrder tr:nth-child(odd) {
+  background-color: lightgray;
+}
+#listOrder tr:nth-child(even) {
+  background-color: whitesmoke;
+}
